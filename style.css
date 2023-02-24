@@ -10,7 +10,9 @@ body{
     height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    padding-left: 50px;
+
     flex-direction: column;
     background-color: white;
     border-radius: 10px;
@@ -20,7 +22,7 @@ body{
 .box{
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: green;
     border-radius: 1px solid;
 
 
@@ -28,14 +30,14 @@ body{
 
 p{
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     width: 300px;
 
 }
 button{
     width: 200px;
     height: 50px;
-    background-color: green;
+    background-color: rgb(59, 6, 59);
     border: none;
     color: white;
 }
